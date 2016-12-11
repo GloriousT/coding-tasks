@@ -1,0 +1,70 @@
+difference between static and non-static methods
+what means if the class is declared final
+final keyword for the fields
+
+patterns?
+
+SOLID
+
+coding
+
+isPalindrome(String s) function tests
+isPalindrome implementation
+isPalindrome unit tests
+isPalindrome + translate with the interface (mocks)
+OR
+WordCounter
+
+SQL: primary key, foreign key, what is HAVING
+
+HTTP methods CRUD (update - put), http status codes?
+
+maven - difference between phases and goals
+maven - what is settings.xml
+maven - resources ?
+
+webdriver - what is page object, why needed
+ difference between @FindBy and findBy()
+ what are the commonly used locators?
+
+ css:
+ difference between
+ div#hello > p.world
+ and
+ div#hello p.world
+
+ What is the most flexible locator type?
+
+ xpath:
+ 1. unique more-or-less stable xpath for span in the first div
+ (assuming that the sequence and the amount of divs could change)
+
+ 2. unique xpath for the div with the class "underlier" that contains the div "not-so-cool-locator"
+
+<hello>
+    <div class="super locator">
+        <div class="underlier">
+            <span>Yupee!</span>
+        </div>
+    </div>
+    <div class="not-so-cool locator">
+        <div class="underlier">
+            <span>Yupee!</span>
+        </div>
+    </div>
+</hello>
+
+        <!--<hello>-->
+        <!--<div class="underlier">-->
+        <!--<div class="super locator">-->
+        <!--<span>Yupee!</span>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--<div class="underlier">-->
+        <!--<div class="not-so-cool-locator">-->
+        <!--<span>Yupee!</span>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</hello>-->
+
+ git merge vs git rebase
