@@ -1,0 +1,12 @@
+Questions
+All names supposed to be unique values by default.
+Phone numbers validation is out of scope.
+The phone numbers cannot contain duplicates but adding the existing phone should not be treated as an error.
+
+Tests
+1. Empty for non existing person
+2. One phone add - one phone return
+3. Two phones add - two phone return
+4. Phone for one person and phone for another person - returned appropriate
+5. Add same phone - only the existing phones returned
+6. Lower/upper
