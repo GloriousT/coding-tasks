@@ -1,0 +1,5 @@
+Phone Book
+You are supposed to write a phone book.
+It should accept many invocations of a method with two String parameters called "name" and "phoneNumber". This method adds one phone number for a person at a time, however more than one phone number can be assigned to the same person.
+It should expose another method with String parameter called "name", which should return all phones recorded for this person.
+The phone book should be case-insensitive.
