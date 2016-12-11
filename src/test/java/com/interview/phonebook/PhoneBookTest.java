@@ -1,3 +1,6 @@
+package com.interview.phonebook;
+
+import com.interview.phonebook.PhoneBook;
 import org.junit.Test;
 
 import java.util.Set;
