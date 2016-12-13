@@ -1,0 +1,3 @@
+You’re supposed to write the method that plays ping-pong. It should accept String parameter.
+If the argument passed will be “ping” it should return String “pong”. Otherwise it will return String “ping to you”.
+If you call the method 10 times in a row with "ping" - it should return you “You won! Congrats!”.
